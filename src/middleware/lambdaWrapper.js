@@ -1,4 +1,5 @@
 const lambdaWrapper = (handler) => {
+    console.log("lambdaWrapper")
     return async (req, res) => {
         try {
             // Convert Express request to Lambda event format

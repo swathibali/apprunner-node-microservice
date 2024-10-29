@@ -1,5 +1,6 @@
 // This simulates your existing Lambda function
 const eventHandler = async (event) => {
+    console.log("eventHandler")
     try {
         // Convert API Gateway event to Lambda event format
         const lambdaEvent = {
